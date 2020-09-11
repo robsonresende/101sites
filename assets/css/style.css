@@ -1,0 +1,85 @@
+/* cascade style sheet from 101sites */
+
+body {
+	background-color: #000000;
+	color: #F5F5F5;
+	font-family: Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-height: 100vh;
+}
+
+/* cinza: #1B1B1B; */
+
+/*********** HEADER ***********/
+header {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #1B1B1B;
+	display: flex;
+	justify-content: space-between;
+	min-height: 35px;
+	align-items: center;
+}
+
+/*********** NAV ***********/
+
+nav {
+	text-align: center;
+	align-items: center;
+
+}
+
+
+
+header a {
+	align-items: center;
+}
+
+header span a {
+	align-items: center;
+}
+
+
+h1 {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#robson {
+	margin-left: 25px;
+}
+
+#contato {
+	margin-right: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+a:hover {
+	color: #0000ff;
+}
+
+img {
+	border-radius: 50%;
+	margin-top: 2em;
+}
+
+footer {
+	min-height: 45px;
+}
+
+/*********** small devices ***********/
+@media (min-width: 576px) {
+	header {
+		
+	
+	}
+}
