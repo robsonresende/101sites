@@ -77,9 +77,8 @@ footer {
 }
 
 /*********** small devices ***********/
-@media (min-width: 576px) {
-	header {
-		
-	
+@media (max-width: 576px) {
+	h1 {
+	max-width: 95%;
 	}
 }
