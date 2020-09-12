@@ -1,0 +1,136 @@
+/* CSS of icone-camadas */
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #0A0A0A;
+	vertical-align: center;
+	box-sizing: border-box;
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent !important;
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+
+}
+
+div ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+div ul li {
+	margin: 3.5em;
+	position: relative;
+	list-style: none;
+	transform: rotate(-30deg) skew(25deg);
+
+}
+
+div ul li span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0A0A0A;
+	transition: 0.5s;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 2em !important;
+	border: 0.07em solid yellow;
+	border-radius: 0.15em;
+	padding: 0.1em;
+	width: 1.5em;
+	height: 1.5em;
+
+}
+
+div ul li:hover span {
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
+}
+
+div ul li:hover span:nth-child(5) {
+	transform: translate(40px, -40px);
+	opacity: 1;
+}
+
+div ul li:hover span:nth-child(4) {
+	transform: translate(30px, -30px);
+	opacity: 0.8;
+}
+
+div ul li:hover span:nth-child(3) {
+	transform: translate(20px, -20px);
+	opacity: 0.6;
+}
+
+div ul li:hover span:nth-child(2) {
+	transform: translate(10px, -10px);
+	opacity: 0.4;
+}
+
+div ul li:hover span:nth-child(1) {
+	transform: translate(0,0);
+	opacity: 0.2;
+}
+
+div ul li:nth-child(1) span {
+	color: #FF0000;
+	border-color: #FF0000;
+}
+
+div ul li:nth-child(2) span {
+	color: #1877F2;
+	border-color: #1877F2;
+}
+
+div ul li:nth-child(3) span {
+	color: #8E36B7;
+	border-color: #8E36B7;
+}
+
+div ul li:nth-child(4) span {
+	color: #F7F7F7;
+	border-color: #F7F7F7;
+}
+
+div ul li:nth-child(5) span {
+	color: #0073AE;
+	border-color: #0073AE;
+}
+
+/*********** SMALL DEVICES ***********/
+
+@media (max-width: 576px) {
+
+	
+	div ul li {
+		margin: 1.25em;
+	}
+
+	div ul li span {
+		width: 1em;
+		height: 1em;
+		font-size: 1em !important;
+	}
+
+}
+
