@@ -1,0 +1,56 @@
+/* CSS from 003-mudanca-de-cor*/
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-weight: bold;
+}
+
+section {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	font-size: 6em;
+	color: #3D3B30;
+	background-color: #5C80BC;
+	text-align: center;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+.divClass {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+	color: #E7E247;
+	background: #3D3B30;
+}
+
+.spClass {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 6em;
+	animation: example 20s infinite linear;
+	font-family: Cursive, Arial;
+	
+}
+
+@keyframes example {
+
+	0% {
+		transform: translate(0,-50%);
+	}
+
+	100% {
+		transform: translate(-50%,-50%);
+	}
+
+}
