@@ -122,6 +122,10 @@ div ul li:nth-child(5) span {
 @media (max-width: 576px) {
 
 	
+	div ul {
+		flex-direction: column;
+	}
+
 	div ul li {
 		margin: 1.45em;
 	}

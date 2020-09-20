@@ -1,0 +1,113 @@
+/* CSS from 005-icone-camadas-flexbox */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #000000;
+	color: dodgerblue;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7em;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item {
+	margin: 2em;
+	position: relative;
+	transform: rotate(-30deg) skew(25deg);
+
+}
+
+span {
+	border: 2px solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 2em;
+	height: 2em;
+	border-radius: 0.15em;
+	background-color: #000000;
+	transition: 0.3s;
+}
+
+div div:hover span:nth-child(5) {
+	transform: translate(0.8em, -0.8em);
+	opacity: 1;
+}
+
+div div:hover span:nth-child(4) {
+	transform: translate(.6em,-.6em);
+	opacity: .8;
+}
+
+div div:hover span:nth-child(3) {
+	transform: translate(.4em, -.4em);
+	opacity: 0.6;
+}
+
+div div:hover span:nth-child(2) {
+	transform: translate(.2em, -.2em);
+	opacity: 0.4;
+}
+
+div div:hover span:nth-child(1) {
+	transform: translate(0,0);
+	opacity: 0.2;
+}
+
+div div:nth-child(1) a {
+	color: #FF0000 !important;
+	border-color: #FF0000 !important;
+}
+
+div div:nth-child(2) a {
+	color: #1877F2 !important;
+	border-color: #1877F2 !important;
+}
+
+div div:nth-child(3) a {
+	color: #8E36B7 !important;
+	border-color: #8E36B7 !important;
+}
+
+div div:nth-child(4) a {
+	color: #C0C0C0 !important;
+	border-color: #C0C0C0 !important;
+}
+
+div div:nth-child(5) a {
+	color: #0073AE !important;
+	border-color: #0073AE !important;
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+
+	body {
+		font-size: 1.25em;
+	}
+	.container {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 500px) {
+	
+	body {
+		font-size: 1em;
+	}
+
+	.container {
+		flex-direction: column;
+	}
+}
