@@ -1,0 +1,195 @@
+/* CSS from - 006-calculator */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	background-color: #020202;
+	color: #ffffff;
+	min-height: 100vh;
+	font-family: cursive, helvetica, arial;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #1B5231;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/****** row 1 to 2 ******/
+
+#displayItem {
+	background-color: #f5f5f5;
+	color: #000000;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	text-align: right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
+
+/****** row 2 to 3 ******/
+#C {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: #058C42;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#slash {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#asterisk {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/****** row 3 to 4 ******/
+#seven {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#eight {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#nine {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#minus {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+
+/****** row 4 to 5 ******/
+#four {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#five {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#six {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* plus */
+#plus {
+	grid-row-start: 4;
+	grid-row-end: 6;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+/****** row 5 to 6 ******/
+#one {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#two {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#three {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/****** row 6 to 7 ******/
+#zero {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#zeroZero {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#dot {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#equal {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	background-color: #058C42;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* large devices */
+
+@media (min-width: 901px) {
+	#container {
+		max-width: 40%;
+	}
+}
+
+/* medium devices */
+@media (min-width: 601px) and (max-width: 900px) {
+	#container {
+		max-width: 55%;
+	}
+}
+
+/* small devices */
+@media (max-width: 600px) {
+	#container {
+		max-width: 80%;
+	}
+}
+
